@@ -4,7 +4,8 @@ Dump DB / Data
 
 to work: You need to register in the configuration file nginx:
 
-location / {
+
+		location / {
 
 			index            index.html index.php;
       
