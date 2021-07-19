@@ -2,7 +2,7 @@ FirstPHPCourseWork_GeekBrains: PHP(my framework), MySQL
 
 Dump DB / Data
 
-to work: You need to register in the configuration file nginx:
+to work, you need to register in the nginx configuration file:
 
 
 		location / {
