@@ -2,7 +2,9 @@ FirstPHPCourseWork_GeekBrains: PHP(my framework), MySQL
 
 Dump DB / Data
 
-to work, you need to register in the nginx configuration file:
+Config DB - /config/config.php
+
+To work, you need to register in the nginx configuration file:
 
 
 		location / {
