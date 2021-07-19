@@ -1,1 +1,1 @@
-FirstPHPCourseWork_GeekBrains: PHP + My framework, MySQL
+FirstPHPCourseWork_GeekBrains: PHP(my framework), MySQL
