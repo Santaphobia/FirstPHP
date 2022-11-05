@@ -32,7 +32,7 @@ class Db
         }
         return $this->connection;
     }
-//"SELECT * FROM goods WHERE id = :id;", ["id" => 1]
+
     private function query($sql, $params){
         $pdoStatement = $this->getConnection()->prepare($sql);
         $pdoStatement->execute($params);
@@ -56,9 +56,9 @@ class Db
         $pdoStatement = $this->query($sql, $params);
         $pdoStatement->setFetchMode(\PDO::FETCH_CLASS | \PDO::FETCH_PROPS_LATE, $class);
         $obj = $pdoStatement->fetch();
-//        if (!$obj) {
-//            throw new \Exception("Продукт не найден", 404);
-//        }
+       if (!$obj) {
+           throw new \Exception("Продукт не найден", 404);
+       }
         return $obj;
     }
 
